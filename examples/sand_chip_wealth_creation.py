@@ -56,7 +56,7 @@ class SandChipWealthCreator:
             },
             'purification': {
                 'name': 'Silicon Purification',
-                'value_multiplier': 50.0,  # Purified silicon ~$5/kg
+                'value_multiplier': 2.5,  # Realistic 150% markup
                 'cost_base': 5.0,
                 'processing_time': 7,
                 'capital_intensity': 0.7,
@@ -65,7 +65,7 @@ class SandChipWealthCreator:
             },
             'wafer_manufacturing': {
                 'name': 'Wafer Manufacturing',
-                'value_multiplier': 200.0,  # Silicon wafers ~$20/kg
+                'value_multiplier': 3.0,  # Realistic 200% markup
                 'cost_base': 20.0,
                 'processing_time': 14,
                 'capital_intensity': 0.8,
@@ -74,7 +74,7 @@ class SandChipWealthCreator:
             },
             'chip_fabrication': {
                 'name': 'Chip Fabrication',
-                'value_multiplier': 10000.0,  # Chips ~$1000/kg equivalent
+                'value_multiplier': 4.0,  # Realistic 300% markup for high-tech
                 'cost_base': 1000.0,
                 'processing_time': 90,
                 'capital_intensity': 0.9,
@@ -83,7 +83,7 @@ class SandChipWealthCreator:
             },
             'system_integration': {
                 'name': 'Computing Systems',
-                'value_multiplier': 50000.0,  # Complete systems
+                'value_multiplier': 2.2,  # Realistic 120% markup for assembly
                 'cost_base': 5000.0,
                 'processing_time': 30,
                 'capital_intensity': 0.6,
@@ -92,7 +92,7 @@ class SandChipWealthCreator:
             },
             'software_platform': {
                 'name': 'AI/ML Software',
-                'value_multiplier': 100000.0,  # Software platforms
+                'value_multiplier': 3.5,  # Realistic 250% markup for software
                 'cost_base': 10000.0,
                 'processing_time': 180,
                 'capital_intensity': 0.2,
@@ -101,7 +101,7 @@ class SandChipWealthCreator:
             },
             'ai_applications': {
                 'name': 'AI Applications',
-                'value_multiplier': 500000.0,  # AI services
+                'value_multiplier': 2.8,  # Realistic 180% markup for services
                 'cost_base': 50000.0,
                 'processing_time': 365,
                 'capital_intensity': 0.1,
@@ -110,7 +110,7 @@ class SandChipWealthCreator:
             },
             'inference_management': {
                 'name': 'Inference Management Systems',
-                'value_multiplier': 2000000.0,  # Enterprise AI systems
+                'value_multiplier': 1.8,  # Realistic 80% markup for enterprise
                 'cost_base': 200000.0,
                 'processing_time': 730,
                 'capital_intensity': 0.3,
@@ -119,7 +119,7 @@ class SandChipWealthCreator:
             },
             'gdp_impact': {
                 'name': 'GDP Economic Impact',
-                'value_multiplier': 10000000.0,  # Economic multiplier effect
+                'value_multiplier': 1.4,  # Realistic 40% economic multiplier
                 'cost_base': 1000000.0,
                 'processing_time': 1825,  # 5 years
                 'capital_intensity': 0.4,

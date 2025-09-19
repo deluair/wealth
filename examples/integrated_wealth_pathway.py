@@ -56,13 +56,13 @@ class IntegratedWealthPathway:
             },
             'compute_to_inference': {
                 'utilization_rate': 0.7,  # 70% compute utilization for inference
-                'service_multiplier': 100,  # Service value multiplier
+                'service_multiplier': 1.5,  # Realistic service value multiplier
                 'market_penetration': 0.25  # 25% market penetration
             },
             'inference_to_economy': {
-                'productivity_multiplier': 1.5,  # Economic productivity gain
+                'productivity_multiplier': 1.2,  # Realistic economic productivity gain
                 'gdp_elasticity': 0.8,  # GDP response to productivity
-                'spillover_effect': 2.2  # Economic spillover multiplier
+                'spillover_effect': 1.3  # Realistic economic spillover multiplier
             }
         }
         
@@ -71,35 +71,35 @@ class IntegratedWealthPathway:
             'manufacturing_ecosystem': {
                 'name': 'Manufacturing Ecosystem',
                 'components': ['Foundries', 'Assembly', 'Testing', 'Packaging'],
-                'value_multiplier': 1.5,
+                'value_multiplier': 1.3,  # Realistic manufacturing markup
                 'employment_factor': 0.3,
                 'innovation_contribution': 0.2
             },
             'software_stack': {
                 'name': 'Software Development Stack',
                 'components': ['Operating Systems', 'Frameworks', 'Libraries', 'Tools'],
-                'value_multiplier': 3.0,
+                'value_multiplier': 1.8,  # Realistic software value addition
                 'employment_factor': 0.6,
                 'innovation_contribution': 0.8
             },
             'service_layer': {
                 'name': 'Service and Platform Layer',
                 'components': ['Cloud Services', 'APIs', 'Platforms', 'Integration'],
-                'value_multiplier': 5.0,
+                'value_multiplier': 2.2,  # Realistic service layer markup
                 'employment_factor': 0.4,
                 'innovation_contribution': 0.6
             },
             'application_ecosystem': {
                 'name': 'Application Ecosystem',
                 'components': ['Enterprise Apps', 'Consumer Apps', 'Specialized Tools', 'Analytics'],
-                'value_multiplier': 10.0,
+                'value_multiplier': 2.8,  # Realistic application value multiplier
                 'employment_factor': 0.8,
                 'innovation_contribution': 0.9
             },
             'business_integration': {
                 'name': 'Business Process Integration',
                 'components': ['Workflow Automation', 'Decision Support', 'Analytics', 'Optimization'],
-                'value_multiplier': 20.0,
+                'value_multiplier': 3.5,  # Realistic business integration value
                 'employment_factor': 0.5,
                 'innovation_contribution': 0.7
             }

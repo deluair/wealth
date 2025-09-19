@@ -76,7 +76,7 @@ class InferenceGDPModel:
             'inference_services': {
                 'name': 'AI Inference Services',
                 'inferences_per_second': 1000,
-                'service_value_multiplier': 100,  # Value multiplier for services
+                'service_value_multiplier': 0.01,  # Realistic $0.01 per inference
                 'market_penetration': 0.25,
                 'growth_rate': 0.40,  # Annual growth
                 'scaling_factor': 10.0
@@ -108,7 +108,7 @@ class InferenceGDPModel:
             'gdp_integration': {
                 'name': 'GDP Economic Integration',
                 'direct_gdp_contribution': 0.02,  # 2% direct contribution
-                'indirect_multiplier': 2.5,  # Indirect economic multiplier
+                'indirect_multiplier': 1.5,  # Realistic 1.5x indirect multiplier
                 'long_term_growth_rate': 0.05,  # Additional annual growth
                 'employment_impact': 0.03,  # Net employment change
                 'scaling_factor': 100000.0
